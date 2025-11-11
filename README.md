@@ -36,6 +36,12 @@ The design is built on the principle of **Defense-in-Depth** and **High Availabi
    git clone https://github.com/vhmedtaha/aws-k8s-ha-cluster-terraform-monitoring.git
 2. After clone the repo Applay terraform files to pull up your Infrastructure
 
+<img width="1918" height="779" alt="Image" src="https://github.com/user-attachments/assets/6968c652-db65-4524-adbe-bea1cfde6124" />
+
+<img width="1900" height="914" alt="Image" src="https://github.com/user-attachments/assets/d403998f-97b9-432c-aa33-3665f1841a9a" />
+
+<img width="1914" height="790" alt="Image" src="https://github.com/user-attachments/assets/fc8db38d-c773-41d7-81fd-20e6e03a555a" />
+
 ---
 
 ## 4. Access EC2 Instances
