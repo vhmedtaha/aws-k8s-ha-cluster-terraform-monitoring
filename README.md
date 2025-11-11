@@ -105,9 +105,16 @@ The design is built on the principle of **Defense-in-Depth** and **High Availabi
    sudo sysctl --system
 7. Initialize the control plane (Choose one of masters to take the Lead)
    
+   Note: Sometimes you should do this step before Initialize the control plane
+   ```bash
+     sudo nano /etc/hosts
+     172.0.0.1    Dns for load balancer 
+   ```
+And Initialize the control plane
    ```bash
      sudo kubeadm init --control-plane-endpoint "LOAD_BALANCER_DNS:LOAD_BALANCER_PORT" --upload-certs
 * Put your load balancer Dns  & 6443 Port
+```
 
 7. The output looks similar to:
    
