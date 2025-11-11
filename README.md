@@ -120,7 +120,13 @@ The design is built on the principle of **Defense-in-Depth** and **High Availabi
    ```bash
      kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 
-9. Install HELM
+9. Verfiy The Work
+
+    <img width="1917" height="994" alt="Image" src="https://github.com/user-attachments/assets/0cdb48a2-ecc0-439f-ae3a-5f80f8db6224" />
+
+    <img width="1919" height="1020" alt="Image" src="https://github.com/user-attachments/assets/603216af-689a-4fdc-b1e4-c0c3912ef20b" />
+
+11. Install HELM
   ```bash
     curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
